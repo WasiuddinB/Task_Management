@@ -20,7 +20,12 @@ const Navbar = () => {
     <>
       <header className='flex justify-between sticky top-0 p-4 bg-white shadow-sm items-center'>
         <h2 className='cursor-pointer uppercase font-medium'>
-          <Link to="/"> Task Manager </Link>
+          <Link to="/"> 
+            <img 
+            src="./WasiuddinB.png" 
+            alt="Task Manager Logo" 
+            style={{ height: '70px', width: 'auto' }} /> 
+          </Link>
         </h2>
         <ul className='hidden md:flex gap-4 uppercase font-medium'>
           {authState.isLoggedIn ? (
