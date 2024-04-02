@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <>
-      <header className='flex justify-between sticky top-0 p-4 bg-white shadow-sm items-center'>
+      <header className='flex justify-between sticky top-0 p-4 bg-[#f7fdfd] shadow-sm items-center'>
         <h2 className='cursor-pointer uppercase font-medium'>
           <Link to="/"> 
             <img 
